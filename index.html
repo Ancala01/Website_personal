@@ -8,26 +8,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
     <header>
         <div class="header-content">
             <img src="image/cold.jpg" alt="iqbal ganteng" class="profile-photo">
             <div class="header-text">
                 <h1><i class="fas fa-robot"></i> Iqbal Pratama</h1>
-                <p>Masih Uji coba kok hehe</p>
+                <p>Masih eror orangnya mau berangkat jum'atan bang</p>
             </div>
         </div>
     </header>
     <section id="about">
         <h2><i class="fas fa-info-circle"></i> Tentang Saya</h2>
-        <p>Apa ya? kalo saya si orangnya dingin dan sangat misterius mwehehe,canda bang saya juga bingung sama diri sendiri</p>
+        <p>dia adalah manusia harimau yang bersembunyi rarrw</p>
     </section>
     <section id="skills">
         <h2><i class="fas fa-cogs"></i> Keterampilan</h2>
         <ul>
             <li>Makan</li>
             <li>Tidur</li>
-            <li>Jomblo-_</li>
-            <li>Gambar mungkin</li>
+            <li>Ngegame</li>
+            <li>Gambar</li>
+            <li>Liatin kamu dari jauh rarw</li>
         </ul>
     </section>
     <section id="portfolio">
@@ -41,6 +52,17 @@
             <p>Alat Pemantau banjir,lupa fotonya dah ilang .</p>
         </div>
     </section>
+    <section id="game">
+        <h2><i class="fas fa-gamepad"></i> Permainan</h2>
+        <p id="question">Pertanyaan: Apa kue kesukaan iqbal?</p>
+        <input type="text" id="answer">
+        <button onclick="checkAnswer()">Tebak</button>
+        <p id="game-message"></p>
+        <div id="prize" style="display: none;">
+            <h3>Selamat! Anda Menang!</h3>
+            <p>Hadiah Anda adalah <span id="prize-item">Tidak ada hehe</span>!</p>
+        </div>
+    </section>
     <section id="contact">
         <h2><i class="fas fa-envelope"></i> Kontak</h2>
         <p>Instagram: <a href="#">Iqball0314</a></p>
@@ -49,5 +71,6 @@
     <footer>
         <p>&copy; 2024 iqball. Semua Hak Dilindungi Allah SWT.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
