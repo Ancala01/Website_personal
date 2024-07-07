@@ -17,7 +17,7 @@ header {
     text-align: center;
     border-bottom: 3px solid #d4af37; 
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .header-content {
@@ -183,7 +183,6 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Efek bintang jatuh */
 @keyframes fallingStars {
     0% {transform: translateY(-100px);}
     100% {transform: translateY(100vh);}
