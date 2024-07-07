@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     background: black; 
     color: #d4af37; 
-    overflow: hidden;
+    overflow: auto;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
     text-align: center;
     border-bottom: 3px solid #d4af37; 
     position: relative;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .header-content {
@@ -156,12 +156,10 @@ footer {
     color: #e0e0e0; 
     text-align: center;
     padding: 20px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
 
-/* Styling untuk permainan */
 #game {
     text-align: center;
 }
@@ -200,6 +198,7 @@ footer {
     animation: fallingStars 10s linear infinite;
     box-shadow: 0 0 5px #fff;
     opacity: 0.8;
+    z-index: 1;
 }
 
 .stars:nth-child(1) { left: 10%; animation-delay: -1s; }
